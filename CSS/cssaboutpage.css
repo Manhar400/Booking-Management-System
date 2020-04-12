@@ -1,0 +1,177 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-image: bi.jpg;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+		.grid-container
+		{
+			display: grid;
+			grid-template-areas: 
+			'main '
+			'h1 ';
+			grid-gap: 5px;
+			background-color: black;
+			padding: 0px;
+		}
+
+		.grid-container > div
+		{
+			color: rgb(0,0,0);
+			padding: 10px;
+			font-size: 30px;
+		}
+
+		.item1
+		{
+			grid-area: main ;
+			background-color: black;
+		}
+
+		.item2
+		{
+			grid-area: h1;
+			background-color: white;
+		}
+
+		body 
+		{
+			font-family: Verdana, sans-serif; margin:0;
+		}
+		.nav 
+		{
+  			font-family: 'Verdana';
+  			text-transform: uppercase;
+  			text-align: center;
+  			font-weight: 600;
+		}
+
+		.nav * 
+		{
+  			box-sizing: border-box;
+  			transition: all .35s ease;
+		}
+
+		.nav li 
+		{
+  			display: inline-block;
+  			list-style: outside none none;
+  			margin: .5em 1em;
+  			paddin: 0;
+		}
+
+		.nav a 
+		{
+  			padding: .5em .8em;
+  			color: white;
+  			position: relative;
+  			text-decoration: none;
+  			font-size: 20px;
+		}
+
+		.nav a::before,
+		.nav a::after 
+		{
+  			content: '';
+  			height: 14px;
+  			width: 14px;
+  			position: absolute;
+  			transition: all .35s ease;
+  			opacity: 0;
+		}
+
+		.nav a::before 
+		{
+  			content: '';
+  			right: 0;
+  			top: 0;
+  			border-top: 3px solid #F08080;
+  			border-right: 3px solid #DC143C;
+  			transform: translate(-100%, 50%);
+		}
+
+		.nav a:after 
+		{
+  			content: '';
+  			left: 0;
+  			bottom: 0;
+  			border-bottom: 3px solid #DC143C;
+  			border-left: 3px solid #F08080;
+  			transform: translate(100%, -50%)
+		}		
+		
+		.nav a:hover:before,
+		.nav a:hover:after
+		{
+  			transform: translate(0,0);
+  			opacity: 1;
+		}
+
+		.nav a:hover 
+		{
+  			color: #FA8072;
+		}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="CSS/cssgrid.css">
+  <link rel="stylesheet" href="CSS/csshover.css">
+  <link rel="stylesheet" href="CSS/cssnaveffect.css">
+  <link rel="stylesheet" href="CSS/cssbodyclasses.css">
+</head>
+
+<body >
+  <div class="grid-container">
+    <div class="item1">
+      <ul class="nav">
+          <li><a href="HomePage.html" title="Home">Home</a></li>
+          <li><a href="AboutPage.html" title="About Us">About Us</a></li>
+          <li><a href="ContactUsPage.html" title="Contact Us">Contact Us</a></li>
+      </ul>
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="container">
+              <img src="Images/movie4.jpg" alt="Avatar" class="image" style="width:100%">
+              <div class="middle">  
+                <div class="text">
+                  <button class="yo" type="button" onclick="window.location.href = 'BookingPage.html';"><b>Book Now !</b></button>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="container">
+              <img src="Images/movie1.jpg" alt="Avatar" class="image" style="width:100%">
+              <div class="middle">  
+                <div class="text">
+                  <button class="yo" type="button" onclick="window.location.href = 'BookingPage.html';"><b>Book Now !</b></button>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="container">
+              <img src="Images/movie2.jpg" alt="Avatar" class="image" style="width:100%">
+              <div class="middle">  
+                <div class="text">
+                  <button class="yo" type="button" onclick="window.location.href = 'BookingPage.html';"><b>Book Now !</b></button>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="container">
+              <img src="Images/movie3.jpg" alt="Avatar" class="image" style="width:100%">
+              <div class="middle">  
+                <div class="text">
+                  <button class="yo" type="button" onclick="window.location.href = 'BookingPage.html';"><b>Book Now !</b></button>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      </div>
+    
+      <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+      </div>
+
+    </div>
+
+    <div class="item2" align="center">
+      <form>
+        <br>
+          <label for="cars" class="color">Choose a Timing: </label>
+          <br>
+          <select id="cars" name="cars" onchange="location = this.value;">
+            <option value="HomePage.html">09:05 AM</option>
+            <option value="HomePage.html" selected>03:25 PM</option>
+          </select>
+      </form>
+    </div>
+
+    <div class="item3" align="center">
+      <div class="effects">
+          <div class="demo">
+            <br>
+          <figure class="imghvr-shutter-in-out-diag-1"><img src="Images/movie5.jpg" alt="Street Dancer 3" class="image" style="width:100%">
+             <figcaption>
+                      <h3>OUT NOW</h3>
+                    <p>
+                      <button class="yo2" type="button" title="Book Now !" onclick="window.location.href = 'BookingPage.html';"><b>Book Now !</b></button>
+                    </p>
+                  </figcaption>
+            </figure>
+            &nbsp;&nbsp;&nbsp;
+          <figure class="imghvr-shutter-in-out-diag-1"><img src="Images/movie7.jpg" alt="Black Widow" class="image" style="width:100%">
+             <figcaption>
+              <p>OUT ON</p>
+                      <h3>NOV 6,2020</h3>
+                  </figcaption>
+            </figure>
+            &nbsp;&nbsp;&nbsp;
+          <figure class="imghvr-shutter-in-out-diag-1"><img src="Images/movie6.jpg" alt="The Invisible Man" class="image" style="width:100%">
+             <figcaption>
+                      <h3>OUT NOW</h3>
+                      <p>
+                      <button class="yo2" type="button" title="Book Now !" onclick="window.location.href = 'BookingPage.html';"><b>Book Now !</b></button>
+                    </p>
+                  </figcaption>
+            </figure>
+            </div>
+            </div>
+    </div>
+  </div>
+
+</body>
+</html>
+<script type="text/javascript" src="JavaScript/js.js"></script>

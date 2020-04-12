@@ -1,0 +1,76 @@
+*{
+	margin:0;
+	padding:0;
+}
+body
+{
+  background-image: url("../Images/bi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+	color:white;
+	text-align: -webkit-center;
+	padding:20px;
+	font-style: italic;
+	font-family: serif;
+}
+h2{
+	color:white;
+	/*text-align: -webkit-center;*/
+	padding:20px;
+	font-style: italic;
+	font-family: serif;
+}
+.register{
+	margin-left: 400px;
+}
+label{
+	color:white;
+	font-size: 22px;
+	padding-bottom:20px;
+	font-style: italic;
+}
+#t1 
+{
+	width: 500px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+}
+#t2 
+{
+	width: 500px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+}
+#t4
+{
+	width: 500px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+}
+#t5
+{
+	width: 500px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+}
+#sub{
+	width: 150px;
+    /* text-align: -webkit-center; */
+    padding: 7px;
+    font-size: 18px;
+    font-style: italic;
+    outline: 0;
+    border-radius: 3px;
+    border: none;
+}
+	

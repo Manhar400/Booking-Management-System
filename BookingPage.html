@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="CSS/sty.css">
+	<link rel="stylesheet" href="CSS/cssgrid.css">
+	<link rel="stylesheet" href="CSS/cssnaveffect.css">
+	<title>Form Creation</title>
+	
+</head>
+<body>
+		<div class="grid-container">
+		<div class="item1">
+			<ul class="nav">
+  				<li><a href="HomePage.html">Home</a></li>
+  				<li><a href="AboutPage.html">About Us</a></li>
+  				<li><a href="ContactUsPage.html">Contact Us</a></li>
+			</ul>
+		</div>
+
+	</div>
+	<h1>BOOK TICKET</h1>
+	<div class ="register">
+		<form method="post" id="register" onsubmit="return(Validation());">
+			<h2>Register Here</h2>
+			<label>First Name:</label><br>
+			<input type="text" name="Fname" id="t1"
+			placeholder="Enter your First Name"><br><br>
+			<label>Last Name:</label><br>
+			<input type="text" name="Lname" id="t2"
+			placeholder="Enter your First Name"><br><br>
+			<label>Mobile Number:</label><br>
+            <input type="number" name="MNum" id="t3"
+			placeholder="Enter your Mobile Number"><br><br>
+			<label>Email:</label><br>
+			<input type="email" name="email" id="t4"
+			placeholder="Enter your Email"><br><br>
+			<label>Password:</label><br>
+			<input type="password" name="pass" id="t5"
+			placeholder="Enter your password"><br><br>
+			<button onclick="myFunction()" id="sub">Submit</button>
+			</form>
+		</div>
+	</body>
+	</html>
+
+		<script type="text/javascript" src="JavaScript/js1.js"></script>

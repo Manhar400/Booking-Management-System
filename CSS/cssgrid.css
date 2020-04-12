@@ -1,0 +1,30 @@
+.grid-container
+{
+	display: grid;
+	grid-template-areas: 
+	'main main'
+	'h1 h2';
+	grid-gap: 5px;
+	padding: 0px;
+}
+
+.grid-container > div
+{
+	padding: 10px;
+	font-size: 30px;
+}
+
+.item1
+{
+	grid-area: main ;
+}
+
+.item2
+{
+	grid-area: h1;
+}
+
+.item3
+{
+	grid-area: h2;
+}
